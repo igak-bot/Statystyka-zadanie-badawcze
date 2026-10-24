@@ -1,0 +1,15 @@
+Hello, I have no idea what I'm doing xoxoxo
+
+main.py - główny plik, z tego odpalamy cały program
+setup.py - załadowanie ustawień, zdefiniowanie bodźców i inne wielce ciekawe rzeczy
+stimuli.py - tu mieszka funkcja składająca listę bodźców
+checking.py - funkcje sprawdzające poprawność i dające feedback
+experiment.py - funkcja wyświetlająca instruckję + funkcja odpalająca całe zadanie (nie wiem jak
+to inaczej nazwać lmao what am I a software engineer?)
+tofile.py - funkcja zapisująca dane i funkcja zapisująca dane do pliku
+config.yaml - tu ustawiamy wszystkie śmieszne opcje, zmienne są nazwane intuicyjnie
+
+oparte bardzo mocno na wspólnym projekcie, ten projekt polegał właściwie na doszlifowaniu tego co było
++ minor debugging (didn't feel minor jak nie umiałam rozwiązać problemu przez 3 dni)
+
+https://github.com/Matvii56/task-switching
