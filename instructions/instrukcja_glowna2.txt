@@ -1,0 +1,12 @@
+Zadanie “Kolor”
+Twoim zadaniem jest rozpoznać kolor obiektu i nacisnąć odpowiedni klawisz:
+Klawisz D (lewą ręką) - zielony kolor; 
+klawisz K (prawą ręką) - niebieski kolor. 
+
+
+Zadanie “Kształt”
+Twoim zadaniem jest rozpoznać kształt obiektu i nacisnąć odpowiedni klawisz:
+Klawisz D (lewą ręką) - koło;
+klawisz K (prawą ręką) - kwadrat.
+
+Naciśnij SPACJĘ, aby przejść dalej.

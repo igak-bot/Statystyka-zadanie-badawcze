@@ -1,0 +1,6 @@
+Dodatkowa informacja:
+1. Na początku będziesz miał sesje treningowe, które pozwolą Ci przećwiczyć zadanie, po czym nastąpi sesja eksperymentalna.
+2. Podczas sesji treningowej po każdej odpowiedzi lub wyczerpaniu czasu przeznaczonego na odpowiedź, będzie wyświetlać się informacja zwrotna. Zobaczysz znacznik wyboru w przypadku odpowiedzi poprawnej lub krzyżyk w przypadku odpowiedzi błędnej.
+3. Masz odpowiadać jak najszybciej, na udzielenie odpowiedzi masz 1500 ms (1,5 s).
+
+Naciśnij SPACJĘ, aby rozpocząć.

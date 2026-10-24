@@ -1,0 +1,5 @@
+Część treningowa - KSZTAŁT.
+Twoim zadaniem jest tylko identyfikacja kształtu i naciśnięcie odpowiedniego klawisza:
+D - koło
+K - kwadrat
+Naciśnij SPACJĘ, żeby kontynuować.

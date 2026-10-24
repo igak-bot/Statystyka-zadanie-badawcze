@@ -1,0 +1,46 @@
+import experiment
+
+
+def practice_run_single(n, trial_type):
+    stims, focus_times = make_stim_list(n, mixed_trial=False)
+    for i in range(n):
+        stim = stims[i]
+        focus_time = focus_times[i]
+        answered = False
+        correct_answer = False
+        check_correct(stim=stim, trial_type=trial_type, focus_time=focus_time)
+        give_feedback()
+
+def testing_run_single(n, trial_type, results):
+    stims, focus_times = make_stim_list(n, mixed_trial=False)
+    for i in range(n):
+        stim = stims[i]
+        focus_time = focus_times[i]
+        #trial_type = trial_types[i]
+        #is_sw = switch_queue[i]
+        trial_results = check_correct(stim=stim, trial_type=trial_type, focus_time=focus_time)
+        save_data(result_list=results, block_name=f"Single_{trial_type}", stim=stim, trial_type=trial_type, is_switch=False, trial_results=trial_results)
+
+def practice_run_mixed(n):
+    stims, focus_times, switch_queue, trial_types = make_stim_list(n, mixed_trial=True)
+    for i in range(n):
+        stim = stims[i]
+        focus_time = focus_times[i]
+        trial_type = trial_types[i]
+        answered = False
+        correct_answer = False
+        check_correct(stim=stim, trial_type=trial_type, focus_time=focus_time)
+        give_feedback()
+
+def testing_run_mixed(n, results):
+    stims, focus_times, switch_queue, trial_types = make_stim_list(n, mixed_trial=True)
+    for i in range(n):
+        stim = stims[i]
+        focus_time = focus_times[i]
+        trial_type = trial_types[i]
+        is_sw = switch_queue[i]
+
+        trial_results = check_correct(stim=stim, trial_type=trial_type, focus_time=focus_time)
+
+        save_data(result_list=results, block_name="Mixed_Block", stim=stim, trial_type=trial_type, is_switch=is_sw, trial_results=trial_results)
+

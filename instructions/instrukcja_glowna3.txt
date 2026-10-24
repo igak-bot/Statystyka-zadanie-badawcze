@@ -1,0 +1,12 @@
+Zadanie mieszane
+W niektórych częściach eksperymentu, na początku będzie wyświetlać się wskazówka, która poinformuje Cię, jaką cechę należy w danym momencie zidentyfikować: 
+
+Wskazówka “Kolor” - rozpoznaj kolor obiektu i naciśnij odpowiedni klawisz, ignorując kształt.
+Klawisz D (lewą ręką) - zielony kolor;
+klawisz K (prawą ręką) - niebieski kolor.
+
+Wskazówka “Kształt” - rozpoznaj kształt obiektu i naciśnij odpowiedni klawisz, ignorując kolor. 
+Klawisz D (lewą ręką) - koło;
+klawisz K (prawą ręką) - kwadrat.
+
+Naciśnij SPACJĘ, aby przejść dalej.
